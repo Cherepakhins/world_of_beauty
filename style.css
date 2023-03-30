@@ -218,9 +218,6 @@ main {
 }
 .col-2 {
   display: flex;
-  background-image: url("./img/video.png");
-  background-repeat: no-repeat;
-  margin-top: 80px;
 }
 .main-information__video {
   display: flex;
@@ -230,6 +227,10 @@ main {
   min-width: 445px;
   max-width: 445px;
   max-height: 296px;
+  border-radius: 8px;
+  background-image: url("./img/video.png");
+  background-repeat: no-repeat;
+  margin-top: 80px;
   border-radius: 8px;
 }
 .main-information__description-white {
