@@ -14,16 +14,16 @@
 </head>
 
 <body>
-   <header class="header">
+  <header class="header">
     <div class="header__container">
       <div class="section">
         <div class="header-row">
           <div class="logo">
             <a href="/index.html">
-            <p>Мир красоты</p>
+              <p>Мир красоты</p>
             </a>
           </div>
-          <nav class="header__nav nav"></nav>
+          <nav class="header__nav nav">
             <ul class="nav__list">
               <li class="link nav__item"><a href="#">Услуги и цены</a></li>
               <li class="link nav__item"><a href="#">Мастера</a></li>
@@ -37,7 +37,7 @@
             <div class="contacts__time">с 10.00 до 19.00 без выходных</div>
           </div>
         </div>
-        
+
         <div class="header__hero hero">
           <div class="hero__info">
             <h1 class="hero__title title--big">Создай свой образ вместе с нами</h1>
@@ -45,13 +45,12 @@
             <button class="btn btn--large">Записаться онлайн</button>
           </div>
           <div class="girl">
-            <img class="girl__img" src="../img/girl.png" alt=""
-              width="524px" />
+            <img class="girl__img" src="./img/girl.png" alt="" width="524px" />
           </div>
           <div class="header__social-list social-list">
-            <img src="../img/vk.svg" alt="vk-icon" class="social-list__icon" />
-            <img src="../img/inst.svg" alt="instagram-icon" class="social-list__icon" />
-            <img src="../img/utube.svg" alt="youtube-icon" class="social-list__icon" />
+            <a href="#"><img src="./img/social/vk.svg" alt="vk-icon" class="social-list__icon" /></a>
+            <a href="#"><img src="./img/social/inst.svg" alt="instagram-icon" class="social-list__icon" /></a>
+            <a href="#"><img src="./img/social/utube.svg" alt="youtube-icon" class="social-list__icon" /></a>
           </div>
         </div>
       </div>
@@ -117,42 +116,42 @@
       <h2 class="popular-services__title title--big">Популярные услуги</h1>
         <ul class="popular-services__list">
           <li class="popular-services__item card-services">
-            <img src="../img/service.jpg" class="card-services__img" alt="">
+            <img src="./img/service.jpg" class="card-services__img" alt="">
             <h2 class="card-services__title">Маникюр</h2>
             <p class="card-services__description">Аппаратный, комбинированный или классический.</p>
-            <button class="btn">Записаться</button>
+            <button class="btn card-services__btn">Записаться</button>
           </li>
 
           <li class="popular-services__item card-services">
-            <img src="../img/service.jpg" class="card-services__img" alt="">
+            <img src="./img/service.jpg" class="card-services__img" alt="">
             <h2 class="card-services__title">Покрытие гель-лак</h2>
             <p class="card-services__description">Гель-лак наносится в несколько слоев с использование базы и топа.
               Каждый слой полимеризуется в LED-лампе.</p>
-            <button class="btn">Записаться</button>
+            <button class="btn card-services__btn">Записаться</button>
           </li>
 
           <li class="popular-services__item card-services">
-            <img src="../img/service.jpg" class="card-services__img" alt="">
+            <img src="./img/service.jpg" class="card-services__img" alt="">
             <h2 class="card-services__title">Бразильский маникюр</h2>
             <p class="card-services__description">Выполняется в одноразовых перчатках наполненных увлажняющим лосьоном.
             </p>
-            <button class="btn">Записаться</button>
+            <button class="btn card-services__btn">Записаться</button>
           </li>
 
           <li class="popular-services__item card-services">
-            <img src="../img/service.jpg" class="card-services__img" alt="">
+            <img src="./img/service.jpg" class="card-services__img" alt="">
             <h2 class="card-services__title">Педикюр</h2>
             <p class="card-services__description">Аппаратный, комбинированный или классический.</p>
-            <button class="btn">Записаться</button>
+            <button class="btn card-services__btn">Записаться</button>
           </li>
 
           <li class="popular-services__item card-services">
-            <img src="../img/service.jpg" class="card-services__img" alt="">
+            <img src="./img/service.jpg" class="card-services__img" alt="">
             <h2 class="card-services__title">Парафинотерапия</h2>
             <p class="card-services__description">Благодаря этой процедуре увлажнение кожи увеличивается на 80%, также
               выводит токсины и укрепляет суставы.
             </p>
-            <button class="btn">Записаться</button>
+            <button class="btn card-services__btn">Записаться</button>
           </li>
         </ul>
     </section>
@@ -241,7 +240,8 @@
         <p class="masters__description">Дружная команда настоящих профессионалов</p>
         <ul class="masters__list">
           <li class="masters__item">
-            <a class="masters__link masters__link--1" href="#"><p>Записаться к мастеру</p>
+            <a class="masters__link masters__link--1" href="#">
+              <p>Записаться к мастеру</p>
             </a>
             <h3 class="masters__name">Краснова Ирина</h3>
             <p class="masters__profession">Мастер ногтевого сервиса</p>
@@ -249,15 +249,17 @@
           </li>
 
           <li class="masters__item">
-            <a class="masters__link masters__link--2" href="#"><p>Записаться к мастеру</p>
-              </a>
+            <a class="masters__link masters__link--2" href="#">
+              <p>Записаться к мастеру</p>
+            </a>
             <h3 class="masters__name">Калилова Жанна</h3>
             <p class="masters__profession">Визажист-стилист</p>
             <p class="masters__experience">опыт работы 5 лет</p>
           </li>
 
           <li class="masters__item">
-            <a class="masters__link masters__link--3" href="#"><p>Записаться к мастеру</p>
+            <a class="masters__link masters__link--3" href="#">
+              <p>Записаться к мастеру</p>
             </a>
             <h3 class="masters__name">Киселева Алина</h3>
             <p class="masters__profession">Парикмахер</p>
@@ -265,7 +267,8 @@
           </li>
 
           <li class="masters__item">
-            <a class="masters__link masters__link--4" href="#"><p>Записаться к мастеру</p>
+            <a class="masters__link masters__link--4" href="#">
+              <p>Записаться к мастеру</p>
             </a>
             <h3 class="masters__name">Иванова Елена</h3>
             <p class="masters__profession">Мастер ногтевого сервиса</p>
@@ -275,6 +278,116 @@
     </div>
 
     </section>
+
+    <section class="portfolio">
+
+      <div class="portfolio__row section">
+        <h2 class="portfolio__title title--big">Наши работы</h2>
+        <div class="container-btn">
+          <div class="circle-btn"><img class="slider-btn btn-prev" src="./img/prev.svg" alt="" width="16px"
+              height="14px"></div>
+          <div class="circle-btn"><img class="slider-btn btn-next" src="./img/next.svg" alt="" width="16px"
+              height="14px"></div>
+        </div>
+      </div>
+
+      <ul class="portfolio__list">
+        <li class="portfolio__item portfolio__item-1 portfolio-item">
+          <a href="" class="portfolio__link portfolio-link ">
+            <div class="portfolio-item__container">
+              <svg class="magnifying-glass" width="48" height="48" viewBox="0 0 48 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M46.8563 46.4657L33.3905 32.4616C36.8251 29.017 38.953 24.2682 38.953 19.0311C38.953 8.5368 30.4162 0 19.9219 0C9.42764 0 0.890839 8.5368 0.890839 19.0311C0.890839 29.5254 9.42764 38.0622 19.9219 38.0622C24.5283 38.0622 28.756 36.4155 32.0511 33.6832L45.5495 47.7218C45.7271 47.9076 45.9646 48 46.2029 48C46.4295 48 46.6551 47.9157 46.831 47.7472C47.1916 47.4001 47.2025 46.8264 46.8563 46.4657ZM19.9219 36.2497C10.4272 36.2497 2.70332 28.5258 2.70332 19.0311C2.70332 9.53638 10.4272 1.81248 19.9219 1.81248C29.4166 1.81248 37.1405 9.53638 37.1405 19.0311C37.1405 28.5258 29.4157 36.2497 19.9219 36.2497Z" />
+              </svg>
+              <p>Увеличить</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="portfolio__item portfolio__item-2 portfolio-item">
+          <a href="" class="portfolio__link portfolio-link ">
+            <div class="portfolio-item__container">
+              <svg class="magnifying-glass" width="48" height="48" viewBox="0 0 48 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M46.8563 46.4657L33.3905 32.4616C36.8251 29.017 38.953 24.2682 38.953 19.0311C38.953 8.5368 30.4162 0 19.9219 0C9.42764 0 0.890839 8.5368 0.890839 19.0311C0.890839 29.5254 9.42764 38.0622 19.9219 38.0622C24.5283 38.0622 28.756 36.4155 32.0511 33.6832L45.5495 47.7218C45.7271 47.9076 45.9646 48 46.2029 48C46.4295 48 46.6551 47.9157 46.831 47.7472C47.1916 47.4001 47.2025 46.8264 46.8563 46.4657ZM19.9219 36.2497C10.4272 36.2497 2.70332 28.5258 2.70332 19.0311C2.70332 9.53638 10.4272 1.81248 19.9219 1.81248C29.4166 1.81248 37.1405 9.53638 37.1405 19.0311C37.1405 28.5258 29.4157 36.2497 19.9219 36.2497Z" />
+              </svg>
+              <p>Увеличить</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="portfolio__item portfolio__item-3 portfolio-item">
+          <a href="" class="portfolio__link portfolio-link ">
+            <div class="portfolio-item__container">
+              <svg class="magnifying-glass" width="48" height="48" viewBox="0 0 48 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M46.8563 46.4657L33.3905 32.4616C36.8251 29.017 38.953 24.2682 38.953 19.0311C38.953 8.5368 30.4162 0 19.9219 0C9.42764 0 0.890839 8.5368 0.890839 19.0311C0.890839 29.5254 9.42764 38.0622 19.9219 38.0622C24.5283 38.0622 28.756 36.4155 32.0511 33.6832L45.5495 47.7218C45.7271 47.9076 45.9646 48 46.2029 48C46.4295 48 46.6551 47.9157 46.831 47.7472C47.1916 47.4001 47.2025 46.8264 46.8563 46.4657ZM19.9219 36.2497C10.4272 36.2497 2.70332 28.5258 2.70332 19.0311C2.70332 9.53638 10.4272 1.81248 19.9219 1.81248C29.4166 1.81248 37.1405 9.53638 37.1405 19.0311C37.1405 28.5258 29.4157 36.2497 19.9219 36.2497Z" />
+              </svg>
+              <p>Увеличить</p>
+            </div>
+          </a>
+        </li>
+
+        <li class="portfolio__item portfolio__item-4 portfolio-item">
+          <a href="" class="portfolio__link portfolio-link ">
+            <div class="portfolio-item__container">
+              <svg class="magnifying-glass" width="48" height="48" viewBox="0 0 48 48" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M46.8563 46.4657L33.3905 32.4616C36.8251 29.017 38.953 24.2682 38.953 19.0311C38.953 8.5368 30.4162 0 19.9219 0C9.42764 0 0.890839 8.5368 0.890839 19.0311C0.890839 29.5254 9.42764 38.0622 19.9219 38.0622C24.5283 38.0622 28.756 36.4155 32.0511 33.6832L45.5495 47.7218C45.7271 47.9076 45.9646 48 46.2029 48C46.4295 48 46.6551 47.9157 46.831 47.7472C47.1916 47.4001 47.2025 46.8264 46.8563 46.4657ZM19.9219 36.2497C10.4272 36.2497 2.70332 28.5258 2.70332 19.0311C2.70332 9.53638 10.4272 1.81248 19.9219 1.81248C29.4166 1.81248 37.1405 9.53638 37.1405 19.0311C37.1405 28.5258 29.4157 36.2497 19.9219 36.2497Z" />
+              </svg>
+              <p>Увеличить</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="partners section">
+      <p class="partners__title">Бренды, которые мы используем в работе</p>
+      <ul class="partners__list">
+        <li class="partners__item"><img src="./img/partners/1.png" alt=""></li>
+        <li class="partners__item"><img src="./img/partners/2.png" alt=""></li>
+        <li class="partners__item"><img src="./img/partners/3.png" alt=""></li>
+        <li class="partners__item"><img src="./img/partners/4.png" alt=""></li>
+        <li class="partners__item"><img src="./img/partners/5.png" alt=""></li>
+      </ul>
+    </section>
+
+    <div class="back back-last-section">
+      <section class="section last-section">
+        <div class="contatcs-big">
+          <h2 class="title--big">Контакты</h2>
+          <p class="contatcs-big__adress">Томск, проспект Ленина, дом 13</p>
+          <a href="tel:84996861762" class="contatcs-big__number">8 (499) 686-17-62</a>
+          <a href="#" class="contatcs-big__email">info@more-krasoty.ru</a>
+          <p class="contatcs-big__social">Мы в социальных сетях</p>
+          <ul class="contatcs-big__list-icon">
+            <li><a href="#"><img src="./img/social/vk.svg" alt="vk"></a></li>
+            <li><a href="#"><img src="./img/social/inst.svg" alt="inst"></a></li>
+            <li><a href="#"><img src="./img/social/utube.svg" alt="youtube"></a></li>
+          </ul>
+        </div>
+
+        <form class="form">
+          <div class="form__container">
+            <h3 class="form__title">Быстрая запись</h3>
+            <p class="form__info">Наш менеджер перезвонит в течение нескольких минут, уточнит подробности и согласует
+              время.
+            </p>
+            <input class="form__input" type="text" name="" id="" placeholder="Ваше имя">
+            <input class="form__input" type="number" placeholder="+7 (___) ___-__-__">
+            <button class="btn form__button">Записаться</button>
+            <p class="form__agreement">Нажимая на кнопку вы соглашаетесь с
+              <a href="#">обработкой персональных данных</a>
+            </p>
+          </div>
+        </form>
+      </section>
+    </div>
   </main>
   <footer class="footer">
     <div class="footer__container section">
