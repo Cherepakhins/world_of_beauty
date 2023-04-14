@@ -64,11 +64,8 @@ body {
   border-radius: 24px;
   font-size: 14px;
 }
-<<<<<<< HEAD
+
 .burger {
-=======
-.burger{
->>>>>>> 76adf7ae0a40007debc8a2fe9ad0927b0d049146
   margin-left: 10px;
   display: none;
 }
@@ -86,23 +83,12 @@ body {
     display: flex;
     justify-content: space-between;
   }
-<<<<<<< HEAD
 
   .logo {
     min-width: 173px;
     height: 29px;
     display: flex;
     align-items: center;
-
-=======
-  
-  .logo {
-    min-width: 173px;
-    height: 29px;
-    display: flex;
-    align-items: center;
-
->>>>>>> 76adf7ae0a40007debc8a2fe9ad0927b0d049146
     font-weight: 700;
     font-size: 24px;
     line-height: 29px;
@@ -339,7 +325,6 @@ main {
   &__btn {
     align-self: flex-start;
   }
-<<<<<<< HEAD
 }
 /* price */
 .price__title {
@@ -401,10 +386,6 @@ main {
   }
 }
 
-=======
-}
-
->>>>>>> 76adf7ae0a40007debc8a2fe9ad0927b0d049146
 /*masters*/
 .back {
   width: 100%;
@@ -549,9 +530,9 @@ main {
     background-repeat: no-repeat;
     width: 30%;
     padding-bottom: 23%;
-    
+
     border-radius: 8px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
