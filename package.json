@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp build"
+    "start": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
   },
   "author": "",
   "license": "ISC",
@@ -26,7 +26,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "postcss": "^8.4.21",
     "prettier": "2.8.7",
-    "sass": "^1.60.0",
+    "sass": "^1.62.0",
     "webpack": "^5.79.0",
     "webpack-stream": "^7.0.0"
   },
