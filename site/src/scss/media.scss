@@ -1,0 +1,330 @@
+@media (max-width: 992px) {
+  .section {
+    margin: 0 auto;
+    max-width: 910px;
+    padding: 0 10px;
+  }
+  .header__container {
+    padding: 10px 10px 0;
+
+    .hero {
+      max-width: 900px;
+      &__title {
+        font-size: 38px;
+        line-height: 34px;
+      }
+      &__info {
+        max-width: 380px;
+      }
+    }
+
+    .logo {
+      margin-right: 10px;
+    }
+    .nav__list {
+      column-gap: 24px;
+    }
+  }
+  .main-information {
+    &__info {
+      max-width: 470px;
+    }
+    &__video {
+      min-width: 350px;
+      max-width: 350px;
+      margin: 20px 0;
+    }
+  }
+  .advantages__item {
+    max-width: 280px;
+  }
+  .card-services__img {
+    max-width: 280px;
+  }
+  .card-services__description {
+    max-width: 260px;
+  }
+  .price-haircuts__item {
+    min-width: 40%;
+  }
+  .portfolio {
+    max-width: 910px;
+
+    &__list {
+      column-gap: 18px;
+    }
+    &__item {
+      min-width: 288px;
+      height: 288px;
+    }
+  }
+
+  .partners__list {
+    max-width: 910px;
+    padding: 0 auto;
+    column-gap: 20px;
+  }
+  .last-section {
+    max-width: 910px;
+  }
+  .footer {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 800px) {
+  .girl {
+    opacity: 0.7;
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    margin-right: 10px;
+  }
+  .section {
+    max-width: 700px;
+  }
+  .header__hero {
+    justify-content: center;
+  }
+  .hero__info {
+    max-width: 400px;
+  }
+  .girl {
+    display: none;
+  }
+  .nav__list {
+    column-gap: 4px;
+  }
+  .main-information__video {
+    min-width: 100%;
+  }
+  .price-haircuts__item {
+    min-width: 100%;
+  }
+  .main-information__container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-information__info {
+    max-width: 570px;
+  }
+  .main-information__video {
+    min-width: 445px;
+    max-width: 445px;
+    min-height: 296px;
+  }
+  .advantages {
+    &__item {
+      max-width: 212px;
+    }
+    &__description {
+      padding: 0;
+    }
+    &__title {
+      text-align: center;
+    }
+  }
+  .card-services {
+    &__img {
+      max-width: 320px;
+    }
+    &__description {
+      max-width: 300px;
+    }
+  }
+  .masters__list {
+    justify-content: space-around;
+  }
+  .portfolio__list {
+    justify-content: center;
+  }
+
+  .partners__list {
+    max-width: 500px;
+    column-gap: 5px;
+  }
+  .last-section {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 auto;
+    row-gap: 40px;
+  }
+  .back-last-section {
+    margin-bottom: 40px;
+  }
+  .contatcs-big {
+    margin-top: 40px;
+  }
+  .footer {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 640px) {
+  .header-row {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .popular-services__list {
+    justify-content: center;
+  }
+  .portfolio {
+    max-width: 580px;
+    &__list {
+      column-gap: 10px;
+    }
+    &__item {
+      width: 80%;
+      padding-bottom: 70%;
+    }
+  }
+  .pop-up__body{
+    width: 360px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo a {
+    margin-right: 5px;
+  }
+  .burger {
+    display: block;
+  }
+  .btn-close {
+    display: block;
+  }
+  .mobile-menu {
+    position: fixed;
+    left: 0;
+
+    top: 0;
+
+    overflow: auto;
+    transition: 0.15s;
+    transform: translateX(-100%);
+  }
+  .mobile-menu.visible {
+    position: relative;
+    transform: translateX(0);
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+  .main-information__container {
+    flex-wrap: wrap;
+  }
+  .section {
+    max-width: 400px;
+  }
+  .logo {
+    margin-top: 10px;
+  }
+  .hero {
+    min-height: 100%;
+    padding: 20px 0;
+  }
+  .contacts {
+    align-items: flex-start;
+  }
+  .main-information__video {
+    min-width: 345px;
+    max-width: 345px;
+  }
+  .advantages {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .popular-services {
+    margin-bottom: 50px;
+
+    &__list {
+      justify-content: center;
+    }
+  }
+  .title--big {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  .back {
+    padding: 40px 0;
+  }
+  .main {
+    padding: 0;
+  }
+  .footer__info {
+    margin-right: 10px;
+  }
+  .portfolio {
+    max-width: 380px;
+
+    &__list {
+      column-gap: 6;
+    }
+  }
+}
+@media (max-width: 320px) {
+  .section {
+    max-width: 245px;
+  }
+  .header-row {
+    padding: 10px;
+  }
+  .nav__list {
+    column-gap: 8px;
+    justify-content: flex-start;
+  }
+  .card-services__img {
+    max-width: 220px;
+  }
+  .title--big {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .social-list {
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+  }
+  .btn--large {
+    margin-top: 10px;
+    max-width: 190px;
+  }
+  .main-information {
+    &__video {
+      min-width: 245px;
+      max-width: 245px;
+    }
+    &__definition {
+      font-size: 16px;
+    }
+    &__description {
+      font-size: 12px;
+    }
+  }
+  .price__link-list {
+    flex-direction: column;
+    margin: 16px 0;
+  }
+  .price-haircuts__price {
+    white-space: nowrap;
+  }
+  .portfolio {
+    max-width: 280px;
+  }
+  .form__container {
+    max-width: 350px;
+  }
+  .footer {
+    padding: 10px 0 0 0;
+  }
+}
