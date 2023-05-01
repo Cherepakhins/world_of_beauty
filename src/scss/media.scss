@@ -4,6 +4,7 @@
     max-width: 910px;
     padding: 0 10px;
   }
+
   .header__container {
     padding: 10px 10px 0;
 
@@ -13,40 +14,63 @@
         font-size: 38px;
         line-height: 34px;
       }
+
       &__info {
         max-width: 380px;
       }
     }
 
+    .header__hero {
+      justify-content: center;
+    }
+
     .logo {
       margin-right: 10px;
     }
+
     .nav__list {
       column-gap: 24px;
     }
   }
+
   .main-information {
     &__info {
       max-width: 470px;
     }
+
     &__video {
       min-width: 350px;
       max-width: 350px;
       margin: 20px 0;
     }
   }
+
   .advantages__item {
     max-width: 280px;
   }
+
   .card-services__img {
     max-width: 280px;
   }
+
   .card-services__description {
     max-width: 260px;
   }
+<<<<<<< HEAD
   .price-haircuts__item {
     min-width: 40%;
+=======
+
+  .footer {
+    padding: 10px 0;
   }
+}
+@media (max-width: 800px) {
+  .girl {
+    opacity: 0.7;
+>>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
+  }
+
   .portfolio {
     max-width: 910px;
 
@@ -64,9 +88,11 @@
     padding: 0 auto;
     column-gap: 20px;
   }
+
   .last-section {
     max-width: 910px;
   }
+
   .footer {
     padding: 10px 0;
   }
@@ -77,49 +103,69 @@
   }
 }
 @media (max-width: 768px) {
+  .section {
+    margin-bottom: 50px;
+  }
+
+  .header-row {
+    flex-direction: column;
+    align-items: start;
+    row-gap: 20px;
+  }
+
   .logo {
     margin-right: 10px;
   }
+
   .section {
     max-width: 700px;
   }
-  .header__hero {
-    justify-content: center;
-  }
+
   .hero__info {
     max-width: 400px;
   }
+
   .girl {
     display: none;
   }
+
   .nav__list {
     column-gap: 4px;
   }
+<<<<<<< HEAD
   .main-information__video {
     min-width: 100%;
   }
   .price-haircuts__item {
     min-width: 100%;
   }
+=======
+
+>>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   .main-information__container {
     flex-direction: column;
     align-items: center;
   }
+
   .main-information__info {
     max-width: 570px;
   }
+
   .main-information__video {
     min-width: 445px;
     max-width: 445px;
     min-height: 296px;
   }
+
   .advantages {
     &__item {
       max-width: 212px;
     }
+
     &__description {
       padding: 0;
     }
+
     &__title {
       text-align: center;
     }
@@ -128,13 +174,16 @@
     &__img {
       max-width: 320px;
     }
+
     &__description {
       max-width: 300px;
     }
   }
+
   .masters__list {
     justify-content: space-around;
   }
+<<<<<<< HEAD
   .portfolio__list {
     justify-content: center;
   }
@@ -182,6 +231,16 @@
   }
   .pop-up__body{
     width: 360px;
+=======
+
+  .last-section {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+  .footer .section{
+    margin: 0;
+>>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   }
 }
 
@@ -217,27 +276,48 @@
   .main-information__container {
     flex-wrap: wrap;
   }
+
   .section {
     max-width: 400px;
   }
+
   .logo {
     margin-top: 10px;
   }
+<<<<<<< HEAD
+=======
+
+  .header-row {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .nav {
+    display: none;
+  }
+
+>>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   .hero {
     min-height: 100%;
     padding: 20px 0;
   }
+
   .contacts {
     align-items: flex-start;
   }
+
   .main-information__video {
     min-width: 345px;
     max-width: 345px;
   }
+
   .advantages {
     justify-content: center;
     margin-bottom: 50px;
   }
+
   .popular-services {
     margin-bottom: 50px;
 
@@ -245,19 +325,24 @@
       justify-content: center;
     }
   }
+
   .title--big {
     font-size: 34px;
     margin-bottom: 10px;
   }
+
   .back {
     padding: 40px 0;
   }
+
   .main {
     padding: 0;
   }
+
   .footer__info {
     margin-right: 10px;
   }
+
   .portfolio {
     max-width: 380px;
 
@@ -266,28 +351,35 @@
     }
   }
 }
+
 @media (max-width: 320px) {
   .section {
     max-width: 245px;
   }
+
   .header-row {
     padding: 10px;
   }
+
   .nav__list {
     column-gap: 8px;
     justify-content: flex-start;
   }
+
   .card-services__img {
     max-width: 220px;
   }
+
   .title--big {
     font-size: 20px;
     line-height: 20px;
   }
+
   .hero {
     flex-direction: column;
     padding: 10px;
   }
+
   .social-list {
     margin-top: 10px;
     flex-direction: row;
@@ -295,10 +387,12 @@
     align-items: center;
     column-gap: 10px;
   }
+
   .btn--large {
     margin-top: 10px;
     max-width: 190px;
   }
+<<<<<<< HEAD
   .main-information {
     &__video {
       min-width: 245px;
@@ -310,20 +404,40 @@
     &__description {
       font-size: 12px;
     }
+=======
+
+  .main-information__video {
+    min-width: 245px;
+    max-width: 245px;
   }
+
+  .main-information__definition {
+    font-size: 16px;
+  }
+
+  .main-information__description {
+    font-size: 12px;
+>>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
+  }
+
   .price__link-list {
     flex-direction: column;
     margin: 16px 0;
   }
+
   .price-haircuts__price {
     white-space: nowrap;
   }
+<<<<<<< HEAD
   .portfolio {
     max-width: 280px;
   }
   .form__container {
     max-width: 350px;
   }
+=======
+
+>>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   .footer {
     padding: 10px 0 0 0;
   }
