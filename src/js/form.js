@@ -1,7 +1,8 @@
 const form = () => {
-  const input1 = document.querySelector("#input1");
-  const input2 = document.querySelector("#input2");
+  const input1 = document.querySelector("#inputName");
+  const input2 = document.querySelector("#inputPhone");
   const formElement = document.getElementById("form1");
+  
   formElement.addEventListener("submit", (e) => {
     e.preventDefault();
     const formData = new FormData(formElement);

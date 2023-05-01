@@ -1,10 +1,11 @@
 const tab = () => {
-  let tabNav = document.querySelectorAll(".tabs-nav__item");
-  let tabContent = document.querySelectorAll(".tab");
+  let tabNav = document.querySelectorAll("#tabs-nav__item");
+  let tabContent = document.querySelectorAll("#tab");
   let tabName;
 
   tabNav.forEach((item) => {
     item.addEventListener("click", selectTabNav);
+    
   });
 
   function selectTabNav() {

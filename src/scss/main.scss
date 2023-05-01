@@ -797,13 +797,22 @@ main {
 .block {
   display: block;
 }
-.burger {
-  margin-left: 10px;
+.burger{
   display: none;
+  width: 24px;
+  height: 18px;
+  background-image: url(../img/burger.svg);
+}
+.burger--active{
+  background-size: cover;
+  height: 24px;
+  background-image: url(../img/close.svg);
 }
 .btn-close {
   display: none;
 }
+
+
 .tabs__nav {
   display: flex;
   flex-wrap: wrap;
@@ -811,6 +820,7 @@ main {
   row-gap: 8px;
   margin-bottom: 47px;
 }
+
 .tabs-nav__item {
   font-weight: 500;
   font-size: 14px;
@@ -820,16 +830,19 @@ main {
     border-bottom: 2px solid #00bf78;
     color: #00bf78;
   }
+
   &:hover,
   &:active {
     color: #00bf78;
     cursor: pointer;
   }
+
   &:focus {
     color: #00bf78;
     cursor: pointer;
   }
 }
+
 .price-haircuts__list {
   display: flex;
   flex-wrap: wrap;
@@ -837,21 +850,23 @@ main {
   column-gap: 125px;
   margin-bottom: 100px;
 }
+
 .tab {
   display: none;
 }
+
 .tab--active {
   display: block;
 }
+
 .controls {
   z-index: 10;
 }
+
 .hidden {
   display: none;
 }
-.burger {
-  display: none;
-}
+
 .pop-up {
   width: 100%;
   height: 100%;
@@ -867,7 +882,9 @@ main {
     transform: translateY(0) scale(100%);
     background-color: rgba(0, 0, 0, 0.8);
   }
+
   &__body {
+    background-color: #fff;
     margin: auto;
     width: 500px;
     border-radius: 10px;
@@ -875,6 +892,7 @@ main {
     padding: 100px 15px 110px 15px;
     position: relative;
   }
+
   &__close {
     position: absolute;
     top: 15px;

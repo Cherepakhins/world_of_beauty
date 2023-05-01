@@ -1,19 +1,11 @@
 const burger = () => {
-  let btnBurgerOpen = document.querySelector("#btn-burger--open");
-  let btnBurgerClose = document.querySelector("#btn-burger--close");
-  let mobileMenu = document.querySelector("#mobileMenu");
+  const btnBurgerOpen = document.getElementById("btn-burger--open");
+  const mobileMenu = document.querySelector("#mobileMenu");
 
   btnBurgerOpen.addEventListener("click", () => {
-    btnBurgerOpen.classList.add("none");
-    btnBurgerOpen.classList.remove('burger')
-    mobileMenu.classList.add("visible");
-    btnBurgerClose.classList.add('block')
+    btnBurgerOpen.classList.toggle("burger--active");
+    mobileMenu.classList.toggle("visible");
   });
 
-  btnBurgerClose.addEventListener("click", () => {
-    btnBurgerOpen.classList.remove("none");
-    mobileMenu.classList.remove("visible");
-    btnBurgerClose.classList.add('none')
-  });
 };
 export default burger;

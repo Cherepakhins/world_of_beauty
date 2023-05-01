@@ -1,4 +1,4 @@
-const Slider = () => {
+const slider = () => {
   const slider = document.querySelector("#slider");
   const sliderItems = Array.from(slider.children);
   const btnNext = document.querySelector("#btnNext");
@@ -134,4 +134,4 @@ const Slider = () => {
     };
   }
 };
-export default Slider;
+export default slider;
