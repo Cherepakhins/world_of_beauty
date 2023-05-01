@@ -81,56 +81,30 @@ const slider = () => {
       nextSlide.classList.remove("hidden");
       nextSlide.setAttribute("data-active", "");
     }
-  }
-  if (window.innerWidth <= 992) {
-   /* конфигурация */ 
-   let width = 300; // ширина картинки 
-   let count = 3; // видимое количество изображений 
-
-   let list = carousel.querySelector("ul"); 
-   let listElems = carousel.querySelectorAll("li"); 
-
-   let position = 0; // положение ленты прокрутки 
-
-   btnNext.onclick = function () { 
-     // сдвиг влево 
-     position += width * count; 
-     // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент 
-     position = Math.min(position, 0); 
-     list.style.marginLeft = position + "px"; 
-   }; 
-
-   btnPrev.onclick = function () { 
-     // сдвиг вправо 
-     position -= width * count; 
-     // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент 
-     position = Math.max(position, -width * (listElems.length - count)); 
-     list.style.marginLeft = position + "px"; 
-   };
   } else {
-    /* конфигурация */ 
-    let width = 338; // ширина картинки 
-    let count = 4; // видимое количество изображений 
- 
-    let list = carousel.querySelector("ul"); 
-    let listElems = carousel.querySelectorAll("li"); 
- 
-    let position = 0; // положение ленты прокрутки 
- 
-    btnNext.onclick = function () { 
-      // сдвиг влево 
-      position += width * count; 
-      // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент 
-      position = Math.min(position, 0); 
-      list.style.marginLeft = position + "px"; 
-    }; 
- 
-    btnPrev.onclick = function () { 
-      // сдвиг вправо 
-      position -= width * count; 
-      // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент 
-      position = Math.max(position, -width * (listElems.length - count)); 
-      list.style.marginLeft = position + "px"; 
+    /* конфигурация */
+    const width = 338; // ширина картинки
+    const count = 4; // видимое количество изображений
+
+    const list = carousel.querySelector("ul");
+    const listElems = carousel.querySelectorAll("li");
+
+    const position = 0; // положение ленты прокрутки
+
+    btnNext.onclick = function () {
+      // сдвиг влево
+      position += width * count;
+      // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
+      position = Math.min(position, 0);
+      list.style.marginLeft = position + "px";
+    };
+
+    btnPrev.onclick = function () {
+      // сдвиг вправо
+      position -= width * count;
+      // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
+      position = Math.max(position, -width * (listElems.length - count));
+      list.style.marginLeft = position + "px";
     };
   }
 };

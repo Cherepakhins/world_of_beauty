@@ -1,6 +1,6 @@
 const tab = () => {
-  let tabNav = document.querySelectorAll("#tabs-nav__item");
-  let tabContent = document.querySelectorAll("#tab");
+  const tabNav = document.querySelectorAll("#tabs-nav__item");
+  const tabContent = document.querySelectorAll("#tab");
   let tabName;
 
   tabNav.forEach((item) => {
