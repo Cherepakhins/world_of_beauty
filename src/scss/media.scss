@@ -56,19 +56,18 @@
   .card-services__description {
     max-width: 260px;
   }
-<<<<<<< HEAD
+
   .price-haircuts__item {
     min-width: 40%;
-=======
 
-  .footer {
-    padding: 10px 0;
+    .footer {
+      padding: 10px 0;
+    }
   }
 }
 @media (max-width: 800px) {
   .girl {
     opacity: 0.7;
->>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   }
 
   .portfolio {
@@ -132,16 +131,14 @@
   .nav__list {
     column-gap: 4px;
   }
-<<<<<<< HEAD
+
   .main-information__video {
     min-width: 100%;
   }
   .price-haircuts__item {
     min-width: 100%;
   }
-=======
 
->>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   .main-information__container {
     flex-direction: column;
     align-items: center;
@@ -183,7 +180,6 @@
   .masters__list {
     justify-content: space-around;
   }
-<<<<<<< HEAD
   .portfolio__list {
     justify-content: center;
   }
@@ -208,6 +204,7 @@
     padding: 0 10px;
   }
 }
+
 @media (max-width: 640px) {
   .header-row {
     flex-direction: column;
@@ -229,18 +226,17 @@
       padding-bottom: 70%;
     }
   }
-  .pop-up__body{
+  .pop-up__body {
     width: 360px;
-=======
 
-  .last-section {
-    flex-direction: column;
-    row-gap: 20px;
-    align-items: center;
-  }
-  .footer .section{
-    margin: 0;
->>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
+    .last-section {
+      flex-direction: column;
+      row-gap: 20px;
+      align-items: center;
+    }
+    .footer .section {
+      margin: 0;
+    }
   }
 }
 
@@ -284,8 +280,6 @@
   .logo {
     margin-top: 10px;
   }
-<<<<<<< HEAD
-=======
 
   .header-row {
     flex-direction: column;
@@ -298,7 +292,6 @@
     display: none;
   }
 
->>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   .hero {
     min-height: 100%;
     padding: 20px 0;
@@ -392,19 +385,19 @@
     margin-top: 10px;
     max-width: 190px;
   }
-<<<<<<< HEAD
-  .main-information {
-    &__video {
-      min-width: 245px;
-      max-width: 245px;
-    }
-    &__definition {
-      font-size: 16px;
-    }
-    &__description {
-      font-size: 12px;
-    }
-=======
+}
+
+.main-information {
+  &__video {
+    min-width: 245px;
+    max-width: 245px;
+  }
+  &__definition {
+    font-size: 16px;
+  }
+  &__description {
+    font-size: 12px;
+  }
 
   .main-information__video {
     min-width: 245px;
@@ -417,7 +410,6 @@
 
   .main-information__description {
     font-size: 12px;
->>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   }
 
   .price__link-list {
@@ -428,16 +420,14 @@
   .price-haircuts__price {
     white-space: nowrap;
   }
-<<<<<<< HEAD
+
   .portfolio {
     max-width: 280px;
   }
   .form__container {
     max-width: 350px;
   }
-=======
 
->>>>>>> 4242d094fca00299da68965ad4e93696a4bcf3c1
   .footer {
     padding: 10px 0 0 0;
   }
