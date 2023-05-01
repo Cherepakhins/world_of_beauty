@@ -57,8 +57,12 @@
     max-width: 260px;
   }
 
-  .footer {
-    padding: 10px 0;
+  .price-haircuts__item {
+    min-width: 40%;
+
+    .footer {
+      padding: 10px 0;
+    }
   }
 }
 @media (max-width: 800px) {
@@ -71,6 +75,10 @@
 
     &__list {
       column-gap: 18px;
+    }
+    &__item {
+      min-width: 288px;
+      height: 288px;
     }
   }
 
@@ -124,6 +132,13 @@
     column-gap: 4px;
   }
 
+  .main-information__video {
+    min-width: 100%;
+  }
+  .price-haircuts__item {
+    min-width: 100%;
+  }
+
   .main-information__container {
     flex-direction: column;
     align-items: center;
@@ -165,18 +180,95 @@
   .masters__list {
     justify-content: space-around;
   }
+  .portfolio__list {
+    justify-content: center;
+  }
 
+  .partners__list {
+    max-width: 500px;
+    column-gap: 5px;
+  }
   .last-section {
     flex-direction: column;
-    row-gap: 20px;
     align-items: center;
+    padding: 0 auto;
+    row-gap: 40px;
   }
-  .footer .section{
-    margin: 0;
+  .back-last-section {
+    margin-bottom: 40px;
+  }
+  .contatcs-big {
+    margin-top: 40px;
+  }
+  .footer {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header-row {
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+  }
+  .popular-services__list {
+    justify-content: center;
+  }
+  .portfolio {
+    max-width: 580px;
+    &__list {
+      column-gap: 10px;
+    }
+    &__item {
+      width: 80%;
+      padding-bottom: 70%;
+    }
+  }
+  .pop-up__body {
+    width: 360px;
+
+    .last-section {
+      flex-direction: column;
+      row-gap: 20px;
+      align-items: center;
+    }
+    .footer .section {
+      margin: 0;
+    }
   }
 }
 
 @media (max-width: 480px) {
+  .logo a {
+    margin-right: 5px;
+  }
+  .burger {
+    display: block;
+  }
+  .btn-close {
+    display: block;
+  }
+  .mobile-menu {
+    position: fixed;
+    left: 0;
+
+    top: 0;
+
+    overflow: auto;
+    transition: 0.15s;
+    transform: translateX(-100%);
+  }
+  .mobile-menu.visible {
+    position: relative;
+    transform: translateX(0);
+  }
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
   .main-information__container {
     flex-wrap: wrap;
   }
@@ -245,7 +337,7 @@
   }
 
   .portfolio {
-    max-width: 400px;
+    max-width: 380px;
 
     &__list {
       column-gap: 6;
@@ -293,6 +385,19 @@
     margin-top: 10px;
     max-width: 190px;
   }
+}
+
+.main-information {
+  &__video {
+    min-width: 245px;
+    max-width: 245px;
+  }
+  &__definition {
+    font-size: 16px;
+  }
+  &__description {
+    font-size: 12px;
+  }
 
   .main-information__video {
     min-width: 245px;
@@ -314,6 +419,13 @@
 
   .price-haircuts__price {
     white-space: nowrap;
+  }
+
+  .portfolio {
+    max-width: 280px;
+  }
+  .form__container {
+    max-width: 350px;
   }
 
   .footer {
