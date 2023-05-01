@@ -4,7 +4,6 @@ const modal = () => {
   const popUp = document.getElementById("pop-up");
 
   openPopUp.addEventListener("click", function (e) {
-    e.preventDefault();
     popUp.classList.add("active");
     popUp.classList.remove("none");
   });
